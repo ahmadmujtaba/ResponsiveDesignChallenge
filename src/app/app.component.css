@@ -1,0 +1,68 @@
+
+.pm-cards img {
+  display: inline-block;
+  width: 28px;
+  margin-left: 8px;
+}
+
+@media (max-width: 767.98px) {
+  .pm-cards-width {
+    width:14% !important;
+  }
+
+  .pm-cards img {
+    display: inline-block;
+  }
+
+  .pm-width-paypal {
+    width: 20% !important;
+  }
+
+  div.card-body img{
+    width: 22px !important;
+  }
+  h5.text-muted {
+    margin-top: 20px;
+  }
+}
+
+.inline-margin {
+  margin-inline-end: 10px !important;
+}
+.content {
+  max-width: 10000px;
+  margin: auto;
+}
+.fs-16 {
+  font-size: 20px !important;
+}
+
+.pm-cards-width {
+  width: 16%;
+}
+
+.pm-width-paypal {
+  width: 50%;
+}
+
+.cvvInputImage {
+  background-color: transparent;
+}
+
+div.cvvInputImage img {
+width: 22px;
+}
+
+div.card{
+  width: 100%;
+}
+
+.w25px {
+  width: 25px;
+}
+.invalidInput{
+   color: red;
+}
+input.ng-invalid.ng-touched{
+  border: 1px solid red;
+}
